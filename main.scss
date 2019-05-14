@@ -1,10 +1,10 @@
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body html{
     height: 100Vh;
+    margin: 10px;
 }
 
 img{
@@ -14,7 +14,9 @@ img{
 
 section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px; // Space between images
+                    // Prostor izmedju slika
     .galery{
         cursor: pointer;
         transition: transform .5s;
