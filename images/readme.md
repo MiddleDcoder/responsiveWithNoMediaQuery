@@ -1,1 +1,1 @@
-
+Created directory for images
